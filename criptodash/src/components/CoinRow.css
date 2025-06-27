@@ -1,0 +1,58 @@
+/* src/components/CoinRow.css */
+.coin-row {
+  margin-bottom: 2.5rem;
+}
+
+.row-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-left: 10px;
+  color: var(--text-primary);
+}
+
+.row-container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 1.5rem;
+  gap: 1.5rem;
+  overscroll-behavior-x: contain;
+}
+
+/* Customização da Barra de Scroll */
+.row-container::-webkit-scrollbar { height: 8px; }
+.row-container::-webkit-scrollbar-track { background: rgba(22, 27, 34, 0.5); border-radius: 10px; }
+.row-container::-webkit-scrollbar-thumb { background-color: var(--primary); border-radius: 10px; border: 2px solid rgba(22, 27, 34, 0.5); }
+.row-container::-webkit-scrollbar-thumb:hover { background-color: #79bbff; }
+
+/* Garante que os cards na fileira não se espremam */
+.row-container .coin-card {
+  flex: 0 0 280px;
+}
+
+/* ==========================================================================
+   ======                  REGRAS DE RESPONSIVIDADE                  ======
+   ========================================================================== */
+@media (max-width: 768px) {
+  .row-title {
+    font-size: 1.4rem;
+  }
+  
+  .row-container .coin-card {
+    flex-basis: 240px; 
+  }
+}
+
+/* ==========================================================================
+   ======                  REGRAS PARA CELULARES (FINO)                ======
+   ========================================================================== */
+@media (max-width: 480px) {
+  .row-title {
+    font-size: 1.2rem;
+  }
+
+  .row-container .coin-card {
+    flex-basis: 220px; 
+  }
+}
