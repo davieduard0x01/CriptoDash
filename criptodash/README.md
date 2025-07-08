@@ -1,71 +1,39 @@
-# CriptoDash 🪙
+# <img src="CriptoDash.png" width="40" /> CriptoDash 2.0
 
-![Prévia do CriptoDash](https://i.imgur.com/URL_DA_SUA_SCREENSHOT.png)
+> Um dashboard interativo e responsivo para visualização de dados de criptomoedas, construído com React e Recharts. Este projeto foi desenvolvido como uma peça central de portfólio para demonstrar habilidades em arquitetura de front-end, UI/UX design e consumo de APIs.
 
-> Dashboard de Criptomoedas desenvolvido como parte do meu portfólio de projetos. A aplicação exibe as 100 criptomoedas mais valiosas do mercado com preços atualizados em tempo real, consumindo a API pública da CoinGecko.
+**🚀 [Acesse a versão ao vivo aqui!](URL_DO_SEU_PROJETO_NA_VERCEL)**
 
-**[Clique aqui para ver o projeto em produção!](https://URL_DO_SEU_DEPLOY_NA_VERCEL)**
-
----
-
-## 🚀 Sobre o Projeto
-
-Este projeto foi criado para demonstrar habilidades práticas no desenvolvimento front-end moderno, incluindo:
-
-* Consumo de APIs REST para obtenção de dados dinâmicos.
-* Renderização de componentes e gerenciamento de estado com React.
-* Estilização e criação de layouts responsivos com CSS.
-* Fluxo de desenvolvimento e deploy com Git, GitHub e Vercel.
+![Prévia do CriptoDash em ação](CapturatelaCriptoDash.png)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 💡 Sobre o Projeto
 
-O projeto foi construído utilizando as seguintes tecnologias:
-
-* **Front-End:**
-    * [React](https://react.dev/)
-    * [Vite](https://vitejs.dev/)
-* **Estilização:**
-    * CSS puro
-* **Infraestrutura e Dados:**
-    * API da [CoinGecko](https://www.coingecko.com/pt/api)
-    * Hospedagem na [Vercel](https://vercel.com/)
-
----
+O CriptoDash 2.0 foi criado com o desafio de apresentar uma grande quantidade de dados de forma clara e intuitiva em qualquer dispositivo. O principal destaque técnico é a sua tabela de dados, que se transforma de forma inteligente em uma lista de cards em telas menores, garantindo uma experiência de usuário impecável no mobile.
 
 ## ✨ Funcionalidades
 
-- [x] Listagem das 50 principais criptomoedas por capitalização de mercado.
-- [x] Exibição do nome, símbolo, imagem e preço atual (em BRL).
-- [x] Indicador de "Carregando..." enquanto os dados são buscados.
-- [ ] *(Futuro)* Campo de busca para filtrar moedas por nome.
-- [ ] *(Futuro)* Página de detalhes para cada moeda com gráfico de histórico de preços.
+* **Tabela de Dados Responsiva:** Uma tabela completa no desktop que se converte em uma lista de cards no mobile.
+* **Visualização de Dados:** Mini-gráficos (Sparklines) de 7 dias para cada moeda, utilizando a biblioteca `Recharts`.
+* **Carregamento Otimizado:** Interface com "Skeleton Loading" para uma melhor percepção de performance durante a busca de dados.
+* **Dados em Tempo Real:** Consumo da API da CoinGecko para obter os dados mais recentes do mercado.
 
----
+## 🛠️ Tecnologias Utilizadas
 
-## ⚙️ Como Executar o Projeto Localmente
+* **Front-End:** React, Vite
+* **Visualização de Dados:** Recharts
+* **Estilização:** CSS Puro com Variáveis e Media Queries
+* **Hospedagem:** Vercel
 
-Se você quiser executar este projeto na sua máquina local, siga os passos abaixo:
+## ⚙️ Como Executar Localmente
 
 ```bash
-# 1. Clone o repositório
+# Clone o repositório
 $ git clone [https://github.com/davieduard0x01/CriptoDash.git](https://github.com/davieduard0x01/CriptoDash.git)
 
-# 2. Acesse a pasta do projeto
-$ cd CriptoDash
-
-# 3. Instale as dependências
+# Instale as dependências
 $ npm install
 
-# 4. Inicie o servidor de desenvolvimento
+# Inicie o servidor
 $ npm run dev
-```
-
-Após iniciar o servidor, a aplicação estará disponível em `http://localhost:5173`.
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
