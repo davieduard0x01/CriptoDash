@@ -1,0 +1,102 @@
+/* src/components/CryptoTable.css */
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-primary);
+}
+
+.crypto-table th, .crypto-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.crypto-table thead {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.align-right { text-align: right; }
+.align-center { text-align: center; }
+
+.coin-name-cell { display: flex; align-items: center; gap: 1rem; }
+.coin-image { width: 32px; height: 32px; }
+.coin-name { font-weight: 600; }
+.coin-symbol { color: var(--text-secondary); font-size: 0.85rem; }
+.rank { color: var(--text-secondary); font-weight: 600; }
+
+.sparkline-container {
+  width: 150px;
+  margin-left: auto;
+}
+
+/* Esqueleto de carregamento */
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 25%, rgba(255, 255, 255, 0.15) 37%, rgba(255, 255, 255, 0.06) 63%);
+  background-size: 400% 100%;
+  animation: skeleton-loading 1.4s ease-in-out infinite;
+  border-radius: 4px;
+  height: 20px;
+}
+.skeleton-text.short { width: 40px; }
+.skeleton-text.wide { width: 120px; }
+
+
+/* ==========================================================================
+   ======             A MÁGICA DA RESPONSIVIDADE DA TABELA           ======
+   ========================================================================== */
+@media (max-width: 768px) {
+  
+  /* Esconde o cabeçalho da tabela no celular */
+  .crypto-table thead {
+    display: none;
+  }
+  
+  /* Esconde as colunas marcadas como "hide-mobile" */
+  .crypto-table .hide-mobile {
+    display: none;
+  }
+  
+  /* Faz cada elemento da tabela se comportar como um bloco */
+  .crypto-table, .crypto-table tbody, .crypto-table tr, .crypto-table td {
+    display: block;
+    width: 100%;
+  }
+  
+  /* Transforma a linha em um "card" */
+  .crypto-table tr {
+    margin-bottom: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+  }
+  
+  /* Remove a borda inferior padrão e ajusta o padding */
+  .crypto-table td {
+    border: none;
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right; /* Alinha o valor à direita */
+  }
+  
+  /* Adiciona o "rótulo" da coluna antes de cada dado */
+  .crypto-table td::before {
+    content: attr(data-label); /* Pega o texto do atributo data-label */
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-align: left; /* Alinha o rótulo à esquerda */
+  }
+  
+  /* Estilos específicos para a primeira célula (Moeda) */
+  .crypto-table td:first-child {
+    padding-top: 1rem;
+  }
+  
+  .crypto-table td:last-child {
+    padding-bottom: 1rem;
+  }
+}
