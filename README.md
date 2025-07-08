@@ -1,4 +1,4 @@
-# <img src="CriptoDash.png" width="40" /> CriptoDash 2.0
+# <img src="CriptoDash.png" width="40" /> CriptoDash 1.0
 
 > Um dashboard interativo e responsivo para visualização de dados de criptomoedas, construído com React e Recharts. Este projeto foi desenvolvido como uma peça central de portfólio para demonstrar habilidades em arquitetura de front-end, UI/UX design e consumo de APIs.
 
