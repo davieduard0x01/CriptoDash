@@ -2,7 +2,7 @@
 
 > Um dashboard interativo e responsivo para visualização de dados de criptomoedas, construído com React e Recharts. Este projeto foi desenvolvido como uma peça central de portfólio para demonstrar habilidades em arquitetura de front-end, UI/UX design e consumo de APIs.
 
-**🚀 [Acesse a versão ao vivo aqui!](URL_DO_SEU_PROJETO_NA_VERCEL)**
+**🚀 [Acesse a versão ao vivo aqui!](https://cripto-dash-gold.vercel.app/)**
 
 ![Prévia do CriptoDash em ação](CapturatelaCriptoDash.png)
 
