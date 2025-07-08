@@ -4,7 +4,8 @@
 
 **🚀 [Acesse a versão ao vivo aqui!](URL_DO_SEU_PROJETO_NA_VERCEL)**
 
-![Prévia do CriptoDash em ação](CapturatelaCriptoDash.png)
+Prévia do CriptoDash em ação![Captura de tela CriptoDash](https://github.com/user-attachments/assets/2e91e8ef-e4e1-41a9-90a9-09980e8e3987)
+
 
 ---
 
