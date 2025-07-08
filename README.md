@@ -10,7 +10,7 @@
 
 ## 💡 Sobre o Projeto
 
-O CriptoDash 2.0 foi criado com o desafio de apresentar uma grande quantidade de dados de forma clara e intuitiva em qualquer dispositivo. O principal destaque técnico é a sua tabela de dados, que se transforma de forma inteligente em uma lista de cards em telas menores, garantindo uma experiência de usuário impecável no mobile.
+O CriptoDash 1.0 foi criado com o desafio de apresentar uma grande quantidade de dados de forma clara e intuitiva em qualquer dispositivo. O principal destaque técnico é a sua tabela de dados, que se transforma de forma inteligente em uma lista de cards em telas menores, garantindo uma experiência de usuário impecável no mobile.
 
 ## ✨ Funcionalidades
 
