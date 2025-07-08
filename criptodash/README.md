@@ -2,7 +2,7 @@
 
 ![Prévia do CriptoDash](https://i.imgur.com/URL_DA_SUA_SCREENSHOT.png)
 
-> Dashboard de Criptomoedas desenvolvido como parte do meu portfólio de projetos. A aplicação exibe as 50 criptomoedas mais valiosas do mercado com preços atualizados em tempo real, consumindo a API pública da CoinGecko.
+> Dashboard de Criptomoedas desenvolvido como parte do meu portfólio de projetos. A aplicação exibe as 100 criptomoedas mais valiosas do mercado com preços atualizados em tempo real, consumindo a API pública da CoinGecko.
 
 **[Clique aqui para ver o projeto em produção!](https://URL_DO_SEU_DEPLOY_NA_VERCEL)**
 
